@@ -3,7 +3,9 @@ Construct a database system for NEA Airlines
 
 Requirement:
 * Construct an EER diagram for the client's specifications. The EER should contain all necessary information such as entities, attributes, primary keys, relationships (including specialization/union if any), cardinalities, and participation (including (min, max)). Any assumptions should also be stated clearly. 
-* Construct a data base using SQL
+* Transform the EER model to Relational tables, showing all the steps.
+* Write create table statements to implement the tables in the ORACLE Relational DBMS. When creating tables make sure you choose appropriate data types for the attributes, specify any null/not null or other constraints whenever applicable, and specify the primary and foreign keys. Write at least one insert statement for each of your tables using realistic data. Make sure you take into consideration all the necessary constraints.
+* Normalize the user views provided in Appendices A and B. Clearly show individual steps of UNF, INF, 2NF and 3NF for each of the user views. List the final tables. Discuss the differences between the result of the top-down approach and the result of the bottom-up approach. Provide some analysis (with examples) on why they are similar or different for this particular problem.
 
 Specifications:
 New Endor Airlines (NEA) is the premier aviation service in the small island nation of New Endor, located in the southwestern Pacific Ocean. For the 40 years since its inception, NEA has operated effectively with paper-based record keeping. Recently, New Endor has grown in popularity as a business and tourism destination. Due to increased demand for their services, NEA has decided to modernize their record keeping and automate much of their management activity. You have been contracted by NEA to design a new relational database that fits in with their current business practices. The database that you will design is focused on flight and aircraft management and is described in full here. Ticket billing, advertising and other business activities are handled in different databases that you will not be dealing with.
